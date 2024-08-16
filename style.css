@@ -1,0 +1,65 @@
+:root {
+  --primary-font: "Work Sans";
+  --light-font: 300;
+  --semibold-font: 600;
+  --primary-color: linear-gradient(to top left, #8c1da5 0%, #e72fd4 100%);
+  --neutral-1-color: #e3e4e6;
+  --neutral-2-color: #e3e4e655;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  font-family: var(--primary-font);
+  font-weight: var(--light-font);
+  background-image: linear-gradient(
+    to bottom,
+    #010208 16%,
+    #010206 21%,
+    #040008 25%,
+    #010101 30%,
+    #010101 34%,
+    #010101 36%,
+    #010101 100%
+  );
+  background-repeat: no-repeat;
+}
+
+header {
+  width: 100%;
+  height: 120px;
+  position: fixed;
+}
+
+header section {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+header ul {
+  display: flex;
+  gap: 80px;
+}
+
+.header_item a {
+  text-decoration: none;
+  color: var(--neutral-1-color);
+  font-weight: var(--semibold-font);
+  font-size: 18px;
+  padding-bottom: 5px;
+  transition: all 5s;
+}
+
+.header_item a:hover {
+  background: linear-gradient(to top left, #8c1da5 0%, #e72fd4 100%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  border-bottom: 2px solid white;
+}
