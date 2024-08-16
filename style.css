@@ -58,7 +58,7 @@ header ul {
 .header_item a:hover {
   background: linear-gradient(to top left, #8c1da5 0%, #e72fd4 100%);
 
-  -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 
   border-bottom: 2px solid white;
