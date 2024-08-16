@@ -64,3 +64,22 @@ header ul {
 
   border-bottom: 2px solid white;
 }
+
+.resumo {
+  height: 575px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.resumo_text {
+  width: 40rem;
+  color: var(--neutral-2-color);
+  font-size: 45px;
+  text-align: center;
+}
+
+.resumo_text span {
+  font-weight: var(--semibold-font);
+  color: var(--neutral-1-color);
+}
