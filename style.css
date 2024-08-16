@@ -31,12 +31,13 @@ body {
 header {
   width: 100%;
   height: 120px;
-  position: fixed;
 }
 
 header section {
+  position: fixed;
   display: flex;
-  height: 100%;
+  height: 100px;
+  width: 100%;
   align-items: center;
   justify-content: center;
 }
